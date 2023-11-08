@@ -1,0 +1,54 @@
+/* Allgemeine Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Stile für die Spalten */
+.column h2 {
+    font-size: 24px;
+}
+
+.column p {
+    font-size: 16px;
+}
+
+.column img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Button-Stil */
+.button {
+    display: block;
+    width: 150px;
+    margin: auto;
+    padding: 10px 15px;
+    text-align: center;
+    background-color: #333;
+    color: #fff; /* Textfarbe auf Weiß ändern */
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #555;
+}
