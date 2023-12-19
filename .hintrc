@@ -3,9 +3,13 @@
     "development"
   ],
   "hints": {
-    "meta-charset-utf-8": "off",
+    "button-type": "off",
     "meta-viewport": "off",
-    "axe/language": "off",
-    "no-inline-styles": "off"
+    "axe/structure": [
+      "default",
+      {
+        "list": "off"
+      }
+    ]
   }
 }
