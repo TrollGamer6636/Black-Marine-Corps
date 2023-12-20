@@ -70,8 +70,6 @@ h3 {
   max-width: 5%;
 }
 
-.images {
-  display: flex;
-  justify-content: space-around;
-  margin: 0 0 10px 0;
+#searules {
+  font-size: 150%
 }
