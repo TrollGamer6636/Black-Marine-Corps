@@ -1,7 +1,7 @@
 // Animation des Hintergrunds
 function animateBackground() {
-    var canvas = document.querySelector("canvas");
-    var ctx = canvas.getContext("2d");
+    var canvas = document.createElement("canvas");
+    return canvas.getContext && canvas.getContext("2d");
   
     // Hintergrundfarbe
     ctx.fillStyle = "#2d303b";
