@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-  <meta charset="UTF-8">
-  <title>[SEA] Black Marine Corps</title>
+  <head>
+    <meta charset="UTF-8">
+    <title>[SEA] Black Marine Corps</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+      const nav = document.getElementById("nav");
+      const navToggle = document.querySelector(".nav-toggle");
+  
+      navToggle.addEventListener("click", () => {
+        nav.classList.toggle("open");
+      });
 
-  <link rel="stylesheet" href="style.css">
-
-  <script src="script.js"></script>
-</head>
+      src="script.js"
+    </script>
+  </head>
 <body>
-
   <header>
     <h1>[SEA] Black Marine Corps</h1>
     <img src="https://tr.rbxcdn.com/b0852955f7a65858250d1a2ae6e5cdca/150/150/Image/Png" alt="Logo">
@@ -17,7 +23,8 @@
     <p>Admiral: <strong>OwenJames777</strong></p>
   </header>
 
-  <nav>
+  <nav id="nav">
+    <span class="nav-toggle">Navigation</span>
     <ul>
       <li><a href="index.html">Welcome</a></li>
       <li><a href="information.html">Information</a></li>

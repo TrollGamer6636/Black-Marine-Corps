@@ -51,3 +51,5 @@ function transitionToInformation() {
 
 // Den "Informationen"-Link mit der Übergangsanimation verknüpfen
 document.querySelector("#menu a[href='information.html']").addEventListener("click", transitionToInformation);
+
+
