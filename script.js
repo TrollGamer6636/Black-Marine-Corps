@@ -52,4 +52,9 @@ function transitionToInformation() {
 // Den "Informationen"-Link mit der Übergangsanimation verknüpfen
 document.querySelector("#menu a[href='information.html']").addEventListener("click", transitionToInformation);
 
+const nav = document.getElementById("nav");
+const navToggle = document.querySelector(".nav-toggle");
 
+navToggle.addEventListener("click", () => {
+  nav.classList.toggle("open");
+});

@@ -11,9 +11,9 @@ header {
 }
 
 #nav {
-  position: fixed;
+  position: relative;
   top: 0;
-  left: 0;
+  left: 900px;
   width: 200px;
   height: 100%;
   background: #333;
