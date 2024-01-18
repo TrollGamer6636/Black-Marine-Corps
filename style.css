@@ -11,19 +11,13 @@ header {
 }
 
 #nav {
-  position: relative;
+  position: fixed;
   top: 0;
-  left: 900px;
+  left: 0;
   width: 200px;
   height: 100%;
   background: #333;
   color: #fff;
-  transform: translateX(-100%);
-  transition: transform 0.3s ease-out;
-}
-
-#nav.open {
-  transform: translateX(0);
 }
 
 #nav ul {
@@ -45,10 +39,6 @@ header {
 
 #nav a:hover {
   background: #444;
-}
-
-.nav-toggle {
-  display: none;
 }
   
 h1 {
