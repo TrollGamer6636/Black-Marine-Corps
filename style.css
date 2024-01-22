@@ -21,10 +21,25 @@ section{
     display: relative;
     align-items: center;
     justify-content: center;
-    height: 150vh;
     position: relative;
     background-size: cover;
     padding: 50px;
+}
+
+.mainn{
+  height: 100vh;
+}
+
+.informationn{
+  height: 150vh;
+}
+
+.rankss{
+  height: 180vh;
+}
+
+.ruless{
+  height: 70vh;
 }
 
 section::after{
@@ -196,11 +211,6 @@ img {
 p {
   color: #fff;
   font-size: 1rem;
-}
-  
-nav {
-  background-color: #2d303b;
-  padding: 1rem;
 }
   
 ul {
