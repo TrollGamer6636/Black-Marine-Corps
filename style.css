@@ -45,7 +45,7 @@ section{
 section::after{
     content: "";
     position: absolute;
-    background-color: #000;
+    background-color: #ff000011;
     height: 100%;
     width: 100%;
     top: 0;
@@ -262,4 +262,11 @@ h3 {
   width: 100%;
   max-width: 100%;
   margin: 0 auto;
+}
+
+::after {
+  content: "";
+  position: absolute;
+  /* andere Positionierungs- und Formatierungseigenschaften */
+  pointer-events: none; /* Mausereignisse durch das Element lassen */
 }
